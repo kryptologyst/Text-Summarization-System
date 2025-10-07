@@ -1,0 +1,29 @@
+# Environment Configuration
+# Copy this file to .env and modify as needed
+
+# Database Configuration
+DATABASE_PATH=summarization.db
+
+# Model Configuration
+DEFAULT_METHOD=tfidf
+MAX_SENTENCES=3
+MIN_SENTENCE_LENGTH=10
+MAX_SENTENCE_LENGTH=200
+
+# Language Configuration
+DEFAULT_LANGUAGE=english
+REMOVE_STOPWORDS=true
+STEM_WORDS=false
+
+# Model Paths (optional - for custom models)
+BERT_MODEL_PATH=
+SENTENCE_BERT_MODEL_PATH=
+SPACY_MODEL_PATH=
+
+# Logging Configuration
+LOG_LEVEL=INFO
+LOG_FILE=summarizer.log
+
+# Streamlit Configuration
+STREAMLIT_PORT=8501
+STREAMLIT_HOST=localhost
